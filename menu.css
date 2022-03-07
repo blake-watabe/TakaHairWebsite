@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Hyogo;
+    src: url(Hyogo-regular.otf);
+}
+
+body {
+    font-family: Hyogo, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.top-bar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-shrink: 0;
+    padding-right: 20px;
+}
+
+.tab a {
+    color: black;
+    text-decoration: none;
+}
+
+.Top {
+    background-color: white;
+    display: flex;
+    padding: 0px 16px;
+    align-items: baseline;
+    position: sticky;
+    top: 0;
+    margin-top: 12px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+.menu-image {
+    height: auto;
+    width: 80%; max-width: 1000px; 
+}
+
+.menu {
+    background-color: ghostwhite;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.price-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 80px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.pricelist {
+    display: flex;
+    justify-content: center;
+    padding-left: 64px;
+}
+
+.pricelist2 {
+    display: flex;
+    justify-content: center;
+    padding-left: 64px;
+}
+
+.options,
+.prices {
+    display: table;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.credits {
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    padding: 12px;
+}
